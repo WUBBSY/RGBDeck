@@ -5,6 +5,13 @@ This Project uses a small microcontroller (**Adafruit Trinket M0**) and some **W
 
 ![Front](https://user-images.githubusercontent.com/38454270/216425124-1bf0d9cd-a282-4135-b74b-2863e37c24a7.jpg)
 
+>## Huge thanks to [Adam Honse](https://github.com/CalcProgrammer1) for finding the I2C interface of the Steam Deck and implementing it into OpenRGB. 
+> You can find the I2C sketch for the Adafruit Trinket M0 on his [Github](https://gitlab.com/CalcProgrammer1/Arduino_I2C_NeoPixel_Controller/-/tree/adafruit_trinket_m0).  
+You can then use the Flatpack version from the Discover Store on the Steam Deck to control your LEDs.  
+You'll have to  enable I2C on the Steam Deck first though.  
+I'll update this guide in the next days to include the setup for OpenRGB. 
+I'll also updating some images and graphics to include easier soldering points since there seems to be SD revisions without the initially used probing points. 
+
 >## Disclaimer:  
 > **This Project includes modification of the Steam Deck hardware and soldering of thin wires and small pads. Please be careful as to not damage your hardware.**  
 This Mod is finicky and should only be done if you're competent in soldering and working with electronics.  
