@@ -1,5 +1,13 @@
 # RGBDeck
-RGB Lighting for the Valve Steam Deck
+
+> <h1 style="color:#F45B69; font-weight:bold; margin-top:40px">Warning!</h1>  
+> 
+> <span style="color:#F45B69">**We have encountered a problem with the power delivery of the internal USB-Interface of the Steam Deck, which can (and has) caused a catastrophic failure of a power IC! This causes the controller of the  Steam Deck to no longer function!**</span>  
+> [CalcProgrammer1's Post](https://old.reddit.com/r/SteamDeck/comments/110ca10/warning_about_the_rgbdeck_mod_from_last_weekavoid/)
+> 
+> <h2 style="color:#F45B69; font-weight:bold; margin-bottom:40px">We highly recommend to not do this mod at the moment until we find a workaround!</h2>
+
+**RGB Lighting for the Valve Steam Deck**
 
 This Project uses a small microcontroller (**Adafruit Trinket M0**) and some **WS2812B** LEDs (aka. NeoPixels or ARGB) to add RGB lighting to the back of the Steam Deck. Best effect when using a translucent back.  
 
@@ -23,7 +31,7 @@ This mod may also interfere with your WiFi or Bluetooth. I haven't encountered a
 - [RGBDeck](#rgbdeck)
   - [Table of contents](#table-of-contents)
   - [What is needed](#what-is-needed)
-  - [Preparing your microcontroller](#prepairing-your-microcontroller)
+  - [Preparing your microcontroller](#preparing-your-microcontroller)
   - [Connecting the Microcontroller to your Steam Deck](#connecting-the-microcontroller-to-your-steam-deck)
   - [Adding the addressable LEDs](#adding-the-addressable-leds)
 
